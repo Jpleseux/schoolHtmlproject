@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #555; /* Cor mais escura para o texto */
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center; /* Centraliza todo o texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #007bff; /* Azul mais vibrante */
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; /* Texto branco */
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #007bff; /* Azul mais vibrante */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: left; /* Alinha o texto principal à esquerda */
+    margin: 3% auto; /* Centraliza o conteúdo principal */
+    background-color: #fff; /* Cor de fundo da caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 5%;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    clear: both; /* Limpa o float dos elementos anteriores */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
